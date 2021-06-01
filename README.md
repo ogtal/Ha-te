@@ -15,7 +15,7 @@ En udvidet definition af hadfuldt sprog og eksempler herpå kan findes i filen *
 
 ## Beskrivelse af algoritmen
 
-Algortimen er trænet vha. et annoteret datasæt med 11.096 tekststykker. Datasættet indeholder 3.106 eksempler på hadfuldt sprog, 2.990 eksempler på anstødeligt sprog og 5.000 eksempler på tekststykker uden sproglige angreb. De sidste to grupper er sat sammen til en klassen. Teksstykkerne er kommentarer og svar afgivet på opslag i en række offentlige Facebook Pages og større grupper. Datasættet er opdelt i et træningsdatasæt (70 %), et evalueringsdatasæt (20 %) og et testdatasæt (10 %).  
+Algortimen er trænet vha. et annoteret datasæt med 11.096 tekststykker. Datasættet indeholder 3.106 eksempler på hadfuldt sprog, 2.990 eksempler på anstødeligt sprog og 5.000 eksempler på tekststykker uden sproglige angreb. De sidste to grupper er sat sammen til en klasse. Teksstykkerne er kommentarer og svar afgivet på opslag i en række offentlige Facebook Pages og større grupper. Datasættet er opdelt i et træningsdatasæt (70 %), et evalueringsdatasæt (20 %) og et testdatasæt (10 %).  
 
 Trænings- og evalueringsdatasættet blev brugt til at træne og udvælge den bedste kombination af algoritmearkitektur og hyperparametre. Til det brugte vi den højest macro average F1 score. Efter udvælgelsen af den bedste algoritme blev denne testet på testdatasættet. 
 
